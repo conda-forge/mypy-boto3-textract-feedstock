@@ -22,7 +22,7 @@ requirements:
   run:
     - python >=3.8
     - boto3
-    - typing-extensions >=4.1.0  # [py<312]
+    - typing-extensions >=4.1.0
 
 test:
   imports:
