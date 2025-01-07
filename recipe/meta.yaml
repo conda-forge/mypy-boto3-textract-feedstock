@@ -1,5 +1,5 @@
 {% set name = "mypy-boto3-textract" %}
-{% set version = "1.35.0" %}
+{% set version = "1.35.93" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mypy_boto3_textract-{{ version }}.tar.gz
-  sha256: 8b43663513f0132a6be26d2f36d2435c71006c272a7714dec58dcc0da96dbe1f
+  sha256: 114a858f6a7a2404a62759aac06244ce035cf750b0b678964120c62f06b725cc
 
 build:
   noarch: python
