@@ -17,11 +17,11 @@ build:
 requirements:
   host:
     - python {{ python_min }}
-    - setuptools
+    - setuptools >=60
     - pip
   run:
     - python >={{ python_min }}
-    - boto3
+    - botocore
     - typing-extensions >=4.1.0
 
 test:
@@ -31,12 +31,12 @@ test:
     - pip check
   requires:
     - pip
-    - boto3
     - python {{ python_min }}
 
 about:
   home: https://github.com/youtype/mypy_boto3_builder
-  summary: Type annotations for boto3.Textract 1.35.0 service generated with mypy-boto3-builder 7.26.0
+  summary: Type annotations for the boto3 Textract service
+  doc_url: https://youtype.github.io/boto3_stubs_docs/mypy_boto3_textract/
   dev_url: https://github.com/youtype/mypy_boto3_builder
   license: MIT
   license_file: LICENSE

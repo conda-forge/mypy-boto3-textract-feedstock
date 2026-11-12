@@ -7,9 +7,11 @@ Home: https://github.com/youtype/mypy_boto3_builder
 
 Package license: MIT
 
-Summary: Type annotations for boto3.Textract 1.35.0 service generated with mypy-boto3-builder 7.26.0
+Summary: Type annotations for the boto3 Textract service
 
 Development: https://github.com/youtype/mypy_boto3_builder
+
+Documentation: https://youtype.github.io/boto3_stubs_docs/mypy_boto3_textract/
 
 Current build status
 ====================
